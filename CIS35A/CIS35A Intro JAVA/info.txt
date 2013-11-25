@@ -1,0 +1,12 @@
+1. A Java method is called what in C/C++?
+
+Answer #1: function
+
+2. Java is compiled into___
+
+Answer #2: .class file
+
+The Java interpreter is called the____
+
+Answer #3: Java Virtual Machine (JVM)
+
