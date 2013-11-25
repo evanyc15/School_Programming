@@ -1,0 +1,35 @@
+Please enter the filename: Test1Input.txt
+
+COLOR NAME              NUMBER (Decimal)        NUMBER (Hexadecimal)
+
+Black                                 0          000000
+dark blue                           139          00008B
+Dark Blue                           160          0000A0
+DARK Purple                     8388736          800080
+Forest Green                    8421376          808000
+Pastel Green                      65280          00FF00
+Red                            16711680          FF0000
+Yellow                         16776960          FFFF00
+
+Please enter a color name (Quit to quit): DARK BLUE
+dark blue = 139 (00008B in Hexadecimal)
+
+Please enter a color name (Quit to quit): red
+Red = 16711680 (FF0000 in Hexadecimal)
+
+Please enter a color name (Quit to quit): black
+Black = 0 (000000 in Hexadecimal)
+
+Please enter a color name (Quit to quit): gree
+gree not found
+
+Please enter a color name (Quit to quit): Green
+Green not found
+
+Please enter a color name (Quit to quit): forest green
+Forest Green = 8421376 (808000 in Hexadecimal)
+
+Please enter a color name (Quit to quit): QUIT
+
+Process returned 0 (0x0)   execution time : 25.408 s
+Press any key to continue.

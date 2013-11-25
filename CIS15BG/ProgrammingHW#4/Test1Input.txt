@@ -1,0 +1,8 @@
+Red	16711680
+DARK Purple	8388736
+dark blue	139
+Yellow	16776960
+Black	0
+Forest Green	8421376
+Dark Blue	160
+Pastel Green	65280

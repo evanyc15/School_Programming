@@ -1,0 +1,17 @@
+int copyMultiples( int array2[],
+		int array1[],
+			int numElems,
+			int intNum)
+{
+	int i1, i2;
+
+	i2=0;
+	for( i1 = 0; i1 < numElems; ++i1 ){
+		if(array1[i1] % intNum ){
+			array2[i2] = array1[i1];
+			++i2;
+		} // end if
+	} // end for
+	return i2;
+} // end copyMultiples
+

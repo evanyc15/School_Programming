@@ -1,0 +1,107 @@
+Please enter the filename: Test2Input.txt
+
+COLOR NAME              NUMBER (Decimal)        NUMBER (Hexadecimal)
+
+AQUAMARINE                      7396243          70DB93
+AQUAMARINE                      8388564          7FFFD4
+BLUE VIOLET                     9055202          8A2BE2
+BRASS                          11904578          B5A642
+BRIGHT GOLD                    14276889          D9D919
+BRONZE                          9205843          8C7853
+BURLY WOOD                     14596231          DEB887
+CHARTREUSE                      8388352          7FFF00
+CHOCOLATE                      13789470          D2691E
+COOL COPPER                    14255897          D98719
+COPPER                         12088115          B87333
+CORNFLOWER BLUE                 6591981          6495ED
+CRIMSON                        14423100          DC143C
+DARK GOLDENROD                 12092939          B8860B
+Dark KHAKI                     12433259          BDB76B
+DARK MAGENTA                    9109643          8B008B
+DARK PURPLE                     8855416          871F78
+DARK RED                        9109504          8B0000
+DARK SALMON                    15308410          E9967A
+DARK SEA GREEN                  9288847          8DBC8F
+DARK SLATE BLUE                 7021454          6B238E
+DARK TURQUOISE                  7377883          7093DB
+DARK WOOD                       8740418          855E42
+DIM GRAY                        6908265          696969
+DUSTY ROSE                      8741731          856363
+FELDSPAR                       13734517          D19275
+FIREBRICK                      11674146          B22222
+FIREBRICK                       9315107          8E2323
+GAINSBORO                      14474460          DCDCDC
+GOLD                           13467442          CD7F32
+GOLDENROD                      14329120          DAA520
+GOLDENROD                      14408560          DBDB70
+GRAY                           12632256          C0C0C0
+GRAY                            8421504          808080
+GREEN YELLOW                   11403055          ADFF2F
+INDIAN RED                     13458524          CD5C5C
+KHAKI                          15787660          F0E68C
+LAVENDER                       15132410          E6E6FA
+LAWN GREEN                      8190976          7CFC00
+LIGHT BLUE                     11393254          ADD8E6
+LIGHT BLUE                     12638681          C0D9D9
+LIGHT CORAL                    15761536          F08080
+Light CYAN                     14745599          E0FFFF
+LIGHT GRAY                     13882323          D3D3D3
+LIGHT SKY BLUE                  8900346          87CEFA
+Light SLATE BLUE                8679679          8470FF
+LIGHT SLATE GRAY                7833753          778899
+LIGHT STEEL BLUE               11584734          B0C4DE
+LIGHT WOOD                     15319718          E9C2A6
+MANDARIN ORANGE                14972979          E47833
+MAROON                          8388608          800000
+MAROON                          9315179          8E236B
+MEDIUM AQUAMARINE               6737322          66CDAA
+Medium FOREST GREEN             7048739          6B8E23
+MEDIUM GOLDENROD               15395502          EAEAAE
+MEDIUM ORCHID                  12211667          BA55D3
+MEDIUM SLATE BLUE               8087790          7B68EE
+MEDIUM SLATE BLUE               8323327          7F00FF
+MEDIUM SPRING GREEN             8388352          7FFF00
+MEDIUM TURQUOISE                7396315          70DBDB
+MEDIUM VIOLET RED              13047173          C71585
+MEDIUM VIOLET RED              14381203          DB7093
+NEW TAN                        15452062          EBC79E
+OLD GOLD                       13612347          CFB53B
+OLIVE                           8421376          808000
+OLIVE DRAB                      7048739          6B8E23
+ORCHID                         14315734          DA70D6
+ORCHID                         14381275          DB70DB
+PALE GOLDENROD                 15657130          EEE8AA
+PALE TURQUOISE                 11529966          AFEEEE
+PALE VIOLET RED                14184595          D87093
+PALE VIOLET RED                14381203          DB7093
+PERU                           13468991          CD853F
+PINK                           12357519          BC8F8F
+PLUM                           14524637          DDA0DD
+PLUM                           15379946          EAADEA
+POWDER BLUE                    11591910          B0E0E6
+PURPLE                          8388736          800080
+QUARTZ                         14277107          D9D9F3
+ROSY BROWN                     12357519          BC8F8F
+SADDLE BROWN                    9127187          8B4513
+SALMON                          7291458          6F4242
+SCARLET                         9180951          8C1717
+SEMI-SWEET CHOCOLATE            7029286          6B4226
+SIENNA                          9333539          8E6B23
+SILVER                         12632256          C0C0C0
+SILVER                         15132922          E6E8FA
+SKY BLUE                        8900331          87CEEB
+SLATE BLUE                      6970061          6A5ACD
+SLATE GRAY                      7372944          708090
+TAN                            13808780          D2B48C
+TAN                            14390128          DB9370
+THISTLE                        14204888          D8BFD8
+TURQUOISE                      11397866          ADEAEA
+VERY DARK GRAY                 13487565          CDCDCD
+VERY LIGHT GREY                13487565          CDCDCD
+VIOLET                         15631086          EE82EE
+VIOLET RED                     13382297          CC3299
+VIOLETRED                      13639824          D02090
+WHEAT                          14211263          D8D8BF
+
+Process returned 100 (0x64)   execution time : 2.629 s
+Press any key to continue.

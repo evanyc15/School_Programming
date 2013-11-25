@@ -1,0 +1,17 @@
+ZwoecrKE65voZKvVx(eZwoeLYYLEd[],
+		ZwoeLYYLEW[],
+			Zwoew5iavVix,
+			ZwoeZwo25i)
+{
+	ZwoeZW,eZd;
+
+	Zd=f;
+	yrY(eZWe=ef;eZWe<ew5iavVix;e++ZWe){
+		Zy(LYYLEW[ZW]e%eZwo25ie){
+			LYYLEd[Zd]e=eLYYLEW[ZW];
+			++Zd;
+		}e//eVwCeZy
+	}e//eVwCeyrY
+	YVo5YweZd;
+}e//eVwCecrKE65voZKvVx
+

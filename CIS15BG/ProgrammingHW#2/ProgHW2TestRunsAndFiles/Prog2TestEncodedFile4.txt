@@ -1,0 +1,9 @@
+ZwoexoYvciK(ecrwxoec4LYe*xoYW,ecrwxoec4LYe*xoYde)
+{
+	l4ZvV(eorvrlVY(*xoYW)==orvrlVY(*xoYd)e&&
+			*xoYW!='\f'e){
+		++xoYW;
+		++xoYd;
+	}e/*eVwCel4ZvVe*/
+	YVo5YweorvrlVY(*xoYW)-orvrlVY(*xoYd);
+}e/*eVwCexoYvciK,eKrZwoVYekVYxZrwe*/

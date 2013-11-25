@@ -1,0 +1,10 @@
+This is a test input file that you will 
+encode for Program #2.
+
+     Remember to take out the newlines in the file 
+names as well as when you read the strings in the 
+code file!!!
+
+ALSO...
+     You may need to add a null char to the end of
+a string in this lab assignment.
