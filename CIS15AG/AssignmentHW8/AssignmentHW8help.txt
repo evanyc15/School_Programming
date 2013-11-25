@@ -1,0 +1,27 @@
+Sort Assignments horizontally because you only need to print per loop.
+Ex.-> 
+
+
+int assign[7] = a + b + c + d + e + f + g;
+int i;
+int assignments = 0;
+assign_total;
+int lowest
+int min = 30
+
+//lowest
+
+for (i=0; i<7; i++)
+{
+	if (assign[i] < min)
+	min = assign[i];;
+}
+return min;
+
+for (i=0; i<7;i++)
+{
+	assignments += assign[i];
+}
+
+
+assign_total = assignments - lowest;

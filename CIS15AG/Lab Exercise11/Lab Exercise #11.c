@@ -1,0 +1,43 @@
+//Evan Chen Lab Exercise #11
+#include <stdio.h>
+
+//Prototype
+char printGrade(int);
+
+int main()
+{
+    printGrade(-1);
+    printGrade(55);
+    printGrade(65);
+    printGrade(75);
+    printGrade(85);
+    printGrade(95);
+    printGrade(105);
+    return 0;
+}
+
+//Function Declaration
+char printGrade(int score)
+{
+
+int temp;
+
+temp = score/10;
+switch (temp)
+{
+
+    case 9: printf("A\n");
+        break;
+    case 8: printf("B\n");
+        break;
+    case 7: printf("C\n");
+        break;
+    case 6: printf("D\n");
+        break;
+    case 5: printf("F\n");
+        break;
+    default: printf("Invalid percent\n");
+
+}
+return 0;
+}

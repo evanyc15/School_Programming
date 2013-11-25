@@ -1,0 +1,10 @@
+
+Summary Report
+
+The average total points = 367
+The average percent total = 73
+The number of A's = 2
+The number of B's = 13
+The number of C's = 17
+The number of D's = 14
+The number of F's = 4
