@@ -1,0 +1,153 @@
+//BST.c
+
+
+/* Inserts data into a bst	            */ 
+/* Pre	   bst has been created			*/
+/* Post	   data is inserted				*/
+/* Return  1 if successful              */
+/*	       0 if overflow                */    
+int insertBST (BST * bst, void * dataInPtr)   
+{
+	BST_NODE * newPtr;
+	int*duplicate;
+	int dNum = 0;
+
+	duplicate = &dNum;
+	newPtr = (BST_NODE *) malloc (sizeof(BST_NODE));
+	if (!newPtr)
+		return 0;
+	
+	newPtr->dataPtr = dataInPtr;
+	newPtr->left = NULL;
+	newPtr->right = NULL;
+
+	if (bst->count == 0)
+		bst->root = newPtr;
+	else
+		_insert(bst, bst->root, newPtr,duplicate);
+	if(*duplicate == 1){
+		free(newPtr);
+		return -1;
+	}
+	(bst->count)++;
+	return 1;
+}
+
+/* internal insert function - uses recursion	*/
+/* to insert new data at a leaf	node			*/
+/* Pre		bst has been created				*/
+/*			root pointer points to current root */
+/*			newptr points to new data node		*/
+/* Post		data has been inserted				*/ 
+/* Return	pointer to new root					*/ 
+BST_NODE * _insert(BST * bst, BST_NODE * root, BST_NODE * newPtr,int* duplicate)
+{
+	if (!root)
+		return newPtr;
+
+	if (bst->compare(newPtr->dataPtr, root->dataPtr) < 0)
+	{
+		root->left = _insert(bst, root->left, newPtr, duplicate);
+		return root;
+	}
+	else if (bst->compare(newPtr->dataPtr, root->dataPtr) > 0)
+	{
+		root->right = _insert(bst, root->right, newPtr, duplicate);
+		return root;
+	}
+	else if(bst->compare(newPtr->dataPtr, root->dataPtr) == 0){
+		*duplicate = 1;
+		return root;
+	}
+}
+
+
+/* Deletes data from the bst	             */
+/* Pre	   bst has been created		         */
+/*		   dltKey points to the target data  */
+/* Post    bst node is deleted and recycled  */
+/*		   data is returned to the user		 */
+/* Return  1 if successful			         */ 
+/*	       0 if not found	                 */
+int deleteBST (BST * bst, void * dltKey, void** dataOutPtr)		
+{
+	int success;
+	BST_NODE * newRoot;
+
+	newRoot = _delete(bst, bst->root, dltKey, &success, dataOutPtr);
+	if (success)
+	{
+		bst->root = newRoot;
+		(bst->count)--;
+		if (bst->count == 0)
+			bst->root = NULL;
+	}
+	return success;
+}
+
+
+/* internal delete function - uses recursion to		*/
+/* delete a data node from the bst					*/
+/* Pre		bst has been created					*/
+/*			root points to current root				*/
+/*			dltKey points to target data			*/
+/*			success is a reference to boolean for	*/
+/*			 success in deletion					*/
+/* Post		delete data is returned to the user		*/
+/*			bst node is delete and recycled			*/ 
+/* Return	root pointer							*/ 
+BST_NODE * _delete (BST * bst, BST_NODE * root, void * dltKey, 
+					int * success, void** dataOutPtr)
+{
+	BST_NODE * dltPtr;
+	BST_NODE * exchPtr;
+	BST_NODE * newRoot;
+	BST_NODE * holdPtr;
+
+	if (!root)
+	{
+		*success = 0;
+		return NULL;
+	}
+
+	if (bst->compare(dltKey, root->dataPtr) < 0)
+		root->left = _delete(bst, root->left, dltKey, success, dataOutPtr);
+	else if (bst->compare(dltKey, root->dataPtr) > 0)
+		root->right = _delete(bst, root->right, dltKey, success, dataOutPtr);
+	else
+	{
+		dltPtr = root;
+		if (!root->left)
+		{
+			*dataOutPtr = root->dataPtr;
+			newRoot = root->right;
+			free(dltPtr);
+			*success = 1;
+			return newRoot;
+		}
+		else
+		{
+			if (!root->right)
+			{
+				*dataOutPtr = root->dataPtr;
+				newRoot = root->left;
+				free (dltPtr);
+				*success = 1;
+				return newRoot;
+			}
+			else
+			{
+				exchPtr = root->left;
+				while (exchPtr->right)
+					exchPtr = exchPtr->right;
+				holdPtr = root->dataPtr;
+				root->dataPtr = exchPtr->dataPtr;
+				exchPtr->dataPtr = holdPtr;
+				root->left = _delete(bst, root->left, exchPtr->dataPtr, success, dataOutPtr);
+			}
+		}
+		
+	}
+	return root;
+}
+

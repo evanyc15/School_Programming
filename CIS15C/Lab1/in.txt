@@ -1,0 +1,12 @@
+Ada Lovelace, 66
+Linus Torvalds, 75
+Peter Norton, 82
+Ken Thompson, 82
+Steve Wozniak, 79
+Marc Andreessen, 60
+Donald Knuth, 60
+Adele Goldberg, 71
+Grace Hopper, 82
+Bill Joy, 91
+Andrew Tanenbaum, 71
+Brian Kernighan, 72

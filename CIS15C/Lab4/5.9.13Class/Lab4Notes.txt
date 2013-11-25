@@ -1,0 +1,17 @@
+
+delete:
+-Left of tree will all be the same letter (not completely sure)
+-Don't have to print webaddress (might as well)
+
+
+LookUp:
+-When changing the name, have to find a way to re-sort it into the tree (because the name is the unique key)
+
+
+add
+-Currently the add BST function is returning success if added or failed if it can't allocate memory.
+-Need third function to not add if duplicate
+
+delete
+-need to return data back to user and not free it or else it is gone forever and the user can't use it
+-still need to delete node

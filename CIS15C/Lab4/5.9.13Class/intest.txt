@@ -1,0 +1,14 @@
+Language Arts,408.864.8547,http://helloevan
+Bus/CIS,408.864.8797,http://www.deanza.edu/buscs/
+PSME,408.864.5695
+Counseling,408.864.5400,http://www.deanza.edu/counseling/
+Distance Learning,408.864.8969,http://www.deanza.edu/distance/
+Library,408.864.8761
+Health Services,408.864.8732
+Admissions,408.864.5300 
+Bookstore,408.864.8701,http://www.deanza.edu/bookstore/
+Honors Program,408-864-8833,http://faculty.deanza.fhda.edu/honors/
+Transfer Services,408.864.8841
+Career Services,408.864.5400
+Financial Aid,408.864.8718,http://www.deanza.fhda.edu/financialaid/
+Workforce Education,408.864.8937,http://www.deanza.edu/workforceed/

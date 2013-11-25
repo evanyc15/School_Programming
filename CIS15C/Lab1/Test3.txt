@@ -1,0 +1,32 @@
+Frank Wang, 89
+Shivek Kashyap, 91
+John Byun, 90
+Roger Zhang, 95
+Bor Ka, 20
+Bee Bim Ba, 26
+Ka so el do, 84
+Dual da So, 42
+Test 1 2, 47
+Ivan Zo, 24
+Ka me Da, 11
+Barnett Chen, 88
+Dong Chen, 88
+Evan Chen, 92
+Spring Chen, 92
+Wan Zhang, 90
+Xiao Bo, 56
+Da Bo, 68
+Er Bo, 70
+Peter Chen, 105
+Ada Lovelace, 66
+Linus Torvalds, 75
+Peter Norton, 82
+Ken Thompson, 82
+Steve Wozniak, 79
+Marc Andreessen, 60
+Donald Knuth, 60
+Adele Goldberg, 71
+Grace Hopper, 82
+Bill Joy, 91
+Andrew Tanenbaum, 71
+Brian Kernighan, 72

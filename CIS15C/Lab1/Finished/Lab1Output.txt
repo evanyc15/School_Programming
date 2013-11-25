@@ -1,0 +1,36 @@
+Lab 1 Output:
+
+
+Enter filename: in.txt
+Read in 12 data records
+
+Mean = 891 / 12 = 74.25
+
+Records sorted by scores:
+Marc Andreessen       60
+Donald Knuth          60
+Ada Lovelace          66
+Adele Goldberg        71
+Andrew Tanenbaum      71
+Brian Kernighan       72
+Linus Torvalds        75
+Steve Wozniak         79
+Peter Norton          82
+Ken Thompson          82
+Grace Hopper          82
+Bill Joy              91
+
+Median = 73
+
+
+Histogram:
+ 60: xx
+ 66: x
+ 71: xx
+ 72: x
+ 75: x
+ 79: x
+ 82: xxx
+ 91: x
+
+Mode = 82

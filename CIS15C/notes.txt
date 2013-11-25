@@ -1,0 +1,32 @@
+Evan Chen
+Shahar Marom
+Mridula Mishra
+
+
+
+*pPre = NULL;
+*pLoc = list-> head;
+
+if(list->count == 0)
+	return 0;
+
+if(((*list->compare) (dataInPtr, list->rear->dataPtr)) > 0)
+{
+	*pPre = list-> rear;
+	*pLoc = NULL;
+	return 0;
+
+
+while( (result = ((*list->compare) (dataInPtr, (*pLoc)->dataPtr))) > 0)
+{
+	*pPre = *pLoc;
+	*pLoc = (*pLoc)->link;
+	if(pPre!=NULL)
+	return 1;
+}
+	if(result == 0)
+		return 1;
+else
+	return -1;
+
+}

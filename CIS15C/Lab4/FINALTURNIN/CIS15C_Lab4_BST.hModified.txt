@@ -1,0 +1,40 @@
+//BST.h
+
+
+/* internal insert function - uses recursion	*/
+/* to insert new data at a leaf	node			*/
+/* Pre		bst has been created				*/
+/*			root pointer points to current root */
+/*			newptr points to new data node		*/
+/* Post		data has been inserted				*/
+/* Return	pointer to new root					*/
+BST_NODE * _insert(BST * bst, BST_NODE * root, BST_NODE * newptr,int* duplicate);
+
+
+/* Deletes data from the bst	             */
+/* Pre	   bst has been created		         */
+/*		   dltKey points to the target data  */
+/* Post    bst node is deleted and recycled  */
+/*		   data is returned to the user		 */
+/* Return  1 if successful			         */
+/*	       0 if not found	                 */ 
+int deleteBST (BST * bst, void * dltKey, void** dataOutPtr);
+
+
+/* internal delete function - uses recursion to		*/
+/* delete a data node from the bst					*/
+/* Pre		bst has been created					*/
+/*			root points to current root				*/
+/*			dltKey points to target data			*/
+/*			success is a reference to boolean for	*/
+/*			 success in deletion					*/
+/* Post		delete data is returned to the user		*/
+/*			bst node is delete and recycled			*/
+/* Return	root pointer							*/
+BST_NODE * _delete (BST * bst, BST_NODE * root, void * dltKey, 
+					int * success, void** dataOutPtr);
+
+
+
+
+

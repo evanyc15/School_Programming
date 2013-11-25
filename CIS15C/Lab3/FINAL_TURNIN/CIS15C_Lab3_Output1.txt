@@ -1,0 +1,156 @@
+index 102 list length 1
+index 157 list length 1
+index 195 list length 1
+index 263 list length 1
+index 506 list length 1
+index 520 list length 1
+index 544 list length 1
+index 612 list length 2
+index 638 list length 1
+index 649 list length 1
+index 698 list length 2
+index 721 list length 1
+index 746 list length 1
+index 759 list length 1
+index 835 list length 1
+index 962 list length 2
+index 978 list length 1
+index 994 list length 1
+index 1029 list length 1
+index 1067 list length 1
+index 1122 list length 1
+index 1124 list length 1
+index 1248 list length 2
+index 1273 list length 1
+index 1282 list length 1
+index 1300 list length 1
+index 1301 list length 1
+index 1316 list length 1
+index 1450 list length 1
+index 1510 list length 1
+index 1612 list length 1
+index 1723 list length 1
+index 1776 list length 1
+index 1806 list length 1
+index 1833 list length 1
+index 1854 list length 1
+index 1873 list length 1
+index 1902 list length 1
+index 1948 list length 1
+index 1959 list length 2
+index 1993 list length 1
+index 2018 list length 1
+index 2132 list length 1
+index 2149 list length 1
+index 2191 list length 1
+index 2203 list length 1
+index 2222 list length 1
+index 2253 list length 1
+index 2279 list length 1
+index 2329 list length 1
+index 2353 list length 1
+index 2371 list length 1
+index 2402 list length 1
+index 2451 list length 2
+index 2482 list length 1
+index 2520 list length 1
+index 2556 list length 1
+index 2668 list length 1
+index 2679 list length 1
+index 2687 list length 1
+index 2707 list length 1
+index 2745 list length 1
+index 2751 list length 1
+index 2769 list length 2
+index 2910 list length 2
+index 2928 list length 1
+index 2937 list length 1
+index 3026 list length 1
+index 3055 list length 1
+index 3140 list length 1
+index 3171 list length 1
+index 3185 list length 1
+index 3198 list length 1
+index 3199 list length 1
+index 3209 list length 1
+index 3346 list length 1
+index 3348 list length 1
+index 3367 list length 1
+index 3404 list length 1
+index 3481 list length 1
+index 3525 list length 1
+index 3562 list length 1
+index 3572 list length 1
+index 3625 list length 1
+index 3638 list length 1
+index 3640 list length 2
+index 3647 list length 1
+index 3648 list length 1
+index 3683 list length 2
+index 3710 list length 1
+index 3720 list length 1
+index 3723 list length 1
+index 3766 list length 1
+index 3777 list length 1
+index 3828 list length 1
+index 3847 list length 1
+index 3898 list length 1
+index 3924 list length 1
+index 3933 list length 1
+index 3985 list length 1
+index 3997 list length 1
+index 4138 list length 1
+index 4289 list length 1
+index 4296 list length 1
+index 4340 list length 1
+index 4410 list length 1
+index 4417 list length 2
+index 4428 list length 1
+index 4440 list length 1
+index 4450 list length 1
+index 4467 list length 2
+index 4490 list length 1
+index 4494 list length 1
+index 4510 list length 1
+index 4554 list length 1
+index 4823 list length 1
+index 4875 list length 1
+index 4905 list length 1
+index 4912 list length 1
+index 4921 list length 1
+index 4926 list length 1
+index 4943 list length 1
+index 4960 list length 1
+index 4978 list length 1
+index 4992 list length 1
+
+Total entries: 1230
+Entries in primary area: 1093
+Number of linked lists: 125
+Average list length 1.10
+Longest list length: 2
+at index:
+612: dry town
+698: barn ive
+962: average bread
+1248: certainly wind
+1959: develop sad
+2451: clean everything
+2769: amount beauty
+2910: directly variety
+3640: sometime station
+3683: california hard
+4417: greatest putting
+4467: catch flat
+
+filename ('quit' to quit):word1.txt
+Please enter a correct filename:words1.txt
+Words not found:
+bet
+thinkin
+clears
+cobwebs
+sorrow
+til
+
+Total number of words not found in dictionary: 6

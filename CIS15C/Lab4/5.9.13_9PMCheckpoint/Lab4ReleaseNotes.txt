@@ -1,0 +1,23 @@
+
+5/8/13
+
+-Created headers and structure
+-Created readFile function which aims to read file from user or use default if user only clicks enter, then it begins fscanf of the file (not sure if it works cause not all lines have web addresses)
+-Copied over lab3's compareword function for the createBST to work but not sure if it can be applied the same for createBST
+-Created the while loop in main to prompt user for what choices (add,delete,lookup,quit)
+and reprompt if not valid char
+-Created functions (still blank) of the add, delete, and lookup for the user inputs above.
+
+5/9/13
+-printTree parameter function for traversing BST function created.
+-Finished setting up addName, deleteName, lookupName prompts but none are doing anything with BST yet.
+-Reading from file is complete
+-If user enters <enter> is complete
+-Need to focus on BST
+
+
+-Having trouble with traversing the BST
+-Having trouble with adding BST nodes, it does not seem to be adding correctly cause when printing from traversing, only the last node is printed so far.
+-Not sure how the BST is working so far.
+-Haven't started on HW requirements of modding the add and delete BST functions
+******* Look at cs1311lecture12wdll.ppt for help!

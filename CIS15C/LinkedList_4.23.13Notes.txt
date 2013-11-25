@@ -1,0 +1,21 @@
+
+
+1 if(listCount(list) is 0)
+	1 print error
+	2 return
+2 index = 0
+3 while(traverseList(list, index, ref dataOut) is true)
+	1 print dataOut
+	2 increment index
+4 return
+
+
+
+
+
+NOtes:
+
+
+1 addNode, retrieveNode,removeNode all depend on searchList to set pPre + pLoc
+2 pPre + pLoc are set because of the line:
+	loop(pLoc not NULL and target > pLoc->data.key
